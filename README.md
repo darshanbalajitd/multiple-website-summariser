@@ -6,7 +6,7 @@ A small web application that accepts 1–10 website URLs and a required keyword,
 
 ## Demo
 
-![Demo](https://github-production-user-asset-6210df.s3.amazonaws.com/209789676/511317795-fd01bb44-a099-46ea-85de-13b5674f4e51.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20251107%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251107T123321Z&X-Amz-Expires=300&X-Amz-Signature=c2b9a916f58ab881edc5c79387ce3720c2934362f1947240ad9a825616b55ef5&X-Amz-SignedHeaders=host)
+![Demo]([https://github-production-user-asset-6210df.s3.amazonaws.com/209789676/511317795-fd01bb44-a099-46ea-85de-13b5674f4e51.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20251107%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251107T123321Z&X-Amz-Expires=300&X-Amz-Signature=c2b9a916f58ab881edc5c79387ce3720c2934362f1947240ad9a825616b55ef5&X-Amz-SignedHeaders=host](https://private-user-images.githubusercontent.com/209789676/511317795-fd01bb44-a099-46ea-85de-13b5674f4e51.gif?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjI2MDA3MDIsIm5iZiI6MTc2MjYwMDQwMiwicGF0aCI6Ii8yMDk3ODk2NzYvNTExMzE3Nzk1LWZkMDFiYjQ0LWEwOTktNDZlYS04NWRlLTEzYjU2NzRmNGU1MS5naWY_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUxMTA4JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MTEwOFQxMTEzMjJaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT00YTc3YTAwODFiOWQ5NjYwNzk5MWI1ZDQ4NWJjZThjZTkxM2E0MGU1MjIyOTgyNThmOWUxY2UzYmQ0Nzg3NGEyJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.Qg_gTVsFaxFe7gW_KGcnHeJN4KSnkA8lpIexNYWka2U))
 
 
 What is used
