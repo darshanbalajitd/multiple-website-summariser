@@ -1,0 +1,96 @@
+:host {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Overlay background */
+.loading-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.65); /* darker overlay for contrast */
+  backdrop-filter: blur(6px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  animation: fadeIn 0.4s ease-in-out;
+}
+
+/* Loader variables */
+:host {
+  --loader-size: 60px;
+  --dot-size: 16px;
+  --loader-color: #ff4081; /* base pink glow */
+  --r: calc(var(--loader-size) / 2);
+}
+
+/* Loader container */
+.loader {
+  position: relative;
+  width: var(--loader-size);
+  height: var(--loader-size);
+  filter: drop-shadow(0 0 8px rgba(255, 64, 129, 0.6));
+  animation: spinPulse 2.5s ease-in-out infinite;
+}
+
+/* Each dot */
+.dot {
+  position: absolute;
+  top: 50%;
+  width: var(--dot-size);
+  height: var(--dot-size);
+  background: radial-gradient(circle at 30% 30%, #ff80ab, var(--loader-color));
+  border-radius: 50%;
+  box-shadow: 0 0 15px var(--loader-color);
+  opacity: 0.9;
+}
+
+/* Individual dot motions */
+.dot1 {
+  left: 0;
+  transform-origin: var(--r) var(--r);
+  animation: rotate1 1.8s linear infinite;
+}
+.dot2 {
+  right: 0;
+  transform-origin: var(--r) var(--r);
+  animation: rotate2 1.8s linear infinite;
+  animation-delay: 0.25s;
+}
+.dot3 {
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  transform-origin: var(--r) var(--r);
+  animation: rotate3 1.8s linear infinite;
+  animation-delay: 0.5s;
+}
+
+/* Animations */
+@keyframes rotate1 {
+  0% { transform: rotate(0deg) translateX(var(--r)) rotate(0deg); }
+  100% { transform: rotate(360deg) translateX(var(--r)) rotate(-360deg); }
+}
+
+@keyframes rotate2 {
+  0% { transform: rotate(0deg) translateX(var(--r)) rotate(0deg); }
+  100% { transform: rotate(360deg) translateX(var(--r)) rotate(-360deg); }
+}
+
+@keyframes rotate3 {
+  0% { transform: rotate(0deg) translateX(var(--r)) rotate(0deg); }
+  100% { transform: rotate(360deg) translateX(var(--r)) rotate(-360deg); }
+}
+
+/* Loader glow pulsing */
+@keyframes spinPulse {
+  0%, 100% { filter: drop-shadow(0 0 8px rgba(255, 64, 129, 0.6)); }
+  50% { filter: drop-shadow(0 0 16px rgba(64, 128, 255, 0.9)); }
+}
+
+/* Overlay fade-in */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}

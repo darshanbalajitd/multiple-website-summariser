@@ -1,0 +1,45 @@
+.button-container {
+  display: flex;
+  justify-content: center;       /* centers the button horizontally */
+  align-items: center;           /* centers vertically if multiple elements */
+  margin: 15px 0;                /* breathing space around */
+  gap: 12px;                     /* space between buttons if more than one */
+  flex-wrap: wrap;               /* responsive wrapping */
+}
+
+/* 🎨 Main button styling */
+.button-container button {
+  padding: 10px 22px;
+  font-size: 15px;
+  font-weight: 600;
+  background: linear-gradient(135deg, #d4d7ff, #ffffff);
+  color: #000;
+  border: none;
+  border-radius: 50px;           /* pill-shaped */
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(4px);
+}
+
+/* 🌈 Hover effect — subtle pop + glow */
+.button-container button:hover:not(:disabled) {
+  background: linear-gradient(135deg, #ffffff, #c3c8ff);
+  box-shadow: 0 0 18px rgba(141, 131, 134, 0.6);
+  transform: translateY(-2px);
+}
+
+/* 🖱️ Active click feedback */
+.button-container button:active:not(:disabled) {
+  transform: scale(0.97);
+  box-shadow: 0 0 10px rgba(75, 53, 61, 0.3);
+}
+
+/* 🚫 Disabled state (clean + dimmed) */
+.button-container button:disabled {
+  background: linear-gradient(135deg, #b0b0b0, #d4d4d4);
+  color: rgba(255, 255, 255, 0.8);
+  cursor: not-allowed;
+  box-shadow: none;
+  opacity: 0.7;
+}

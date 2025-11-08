@@ -1,0 +1,10 @@
+<div *ngIf="summary; else noData">
+  <h3>Summary:</h3>
+  <div class="summary-card" [innerHTML]="sanitizeHTML(summary)"></div>
+</div>
+
+<ng-template #noData>
+  <div class="noData">
+  <p>No summary available yet</p>
+  </div>
+</ng-template>

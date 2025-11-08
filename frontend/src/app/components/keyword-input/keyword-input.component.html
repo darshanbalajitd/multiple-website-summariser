@@ -1,0 +1,6 @@
+<div class="keyword-input-row">
+    <input [formControl]="keywordControl" placeholder="Enter keyword"/>
+</div>
+<div *ngIf="keywordControl.invalid && keywordControl.touched" class="error">
+    <p class="key">Keyword is required</p>
+</div>

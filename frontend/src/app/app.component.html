@@ -1,0 +1,13 @@
+<app-description></app-description>
+
+<app-url-input (urlsChanged)="onUrlsChanged($event)"></app-url-input>
+<app-keyword-input (keywordChanged)="onKeywordChanged($event)"></app-keyword-input>
+
+<div class="button-container">
+  <button (click)="summarize()" [disabled]="isLoading || urls.length === 0 || !keyword">
+    Summarize
+  </button>
+</div>
+
+<app-loader [isLoading]="isLoading"></app-loader>
+<app-summary-display [summary]="summary"></app-summary-display>

@@ -1,0 +1,56 @@
+/* Card container — keeps the outer summary styled */
+.summary-card {
+  background-color: #fff; /* or transparent, not gray */
+  border: none;
+  padding: 0;
+  margin-bottom: 10px;
+  max-width: 1000px;
+  margin: 20px auto;
+
+  ol {
+    list-style-position: inside;
+    padding-left: 0;
+    margin: 0;
+  }
+
+  li {
+    margin-bottom: 6px;
+    font-size: 16px;
+    color: #444;
+  }
+}
+
+.noData{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  h3 {
+    margin: 0 0 6px;
+    font-size: 22px;
+    color: #333;
+    text-align: center;
+  }
+/* ✅ Only the Source label has a box */
+.source-box {
+  display: inline-block;
+  margin-left: 8px;
+  background: #eef2ff;
+  border: 1px solid #c7d2fe;
+  border-radius: 6px;
+  padding: 2px 8px;
+  font-size: 0.75rem;
+  font-family: system-ui, sans-serif;
+  vertical-align: middle;
+}
+
+.source-box a {
+  text-decoration: none;
+  color: #4338ca;
+  font-weight: 600;
+}
+
+.source-box:hover {
+  background: #e0e7ff;
+  border-color: #a5b4fc;
+}

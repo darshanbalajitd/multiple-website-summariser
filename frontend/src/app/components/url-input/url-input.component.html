@@ -1,0 +1,13 @@
+<div [formGroup]="urlForm">
+<div formArrayName="urls">
+    <div *ngFor="let urlGroup of urls.controls; let i = index" [formGroupName]="i" class="url-input-row">
+        <input formControlName="url" placeholder="Enter url"/>
+        <button type="button" (click)=" removeUrl(i)" *ngIf="urls.length>1">Remove</button>
+    </div>
+</div>
+<div class="button-container">
+<button type="button" (click)="addUrl()" [disabled]="urls.length>=10">
+    Add url
+</button>
+</div>
+</div>
