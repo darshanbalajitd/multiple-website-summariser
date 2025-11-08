@@ -6,9 +6,8 @@ A small web application that accepts 1–10 website URLs and a required keyword,
 
 ## Demo
 
-<video src="https://github-production-user-asset-6210df.s3.amazonaws.com/209789676/511317795-fd01bb44-a099-46ea-85de-13b5674f4e51.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20251107%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251107T123321Z&X-Amz-Expires=300&X-Amz-Signature=c2b9a916f58ab881edc5c79387ce3720c2934362f1947240ad9a825616b55ef5&X-Amz-SignedHeaders=host" controls width="100%">
-  Your browser does not support the video tag.
-</video>
+![Demo](https://github-production-user-asset-6210df.s3.amazonaws.com/209789676/511317795-fd01bb44-a099-46ea-85de-13b5674f4e51.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20251107%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251107T123321Z&X-Amz-Expires=300&X-Amz-Signature=c2b9a916f58ab881edc5c79387ce3720c2934362f1947240ad9a825616b55ef5&X-Amz-SignedHeaders=host)
+
 
 What is used
 ------------
